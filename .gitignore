@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.py[cod]
+
+# VS Code local history
+.history/
+
+# Virtual environments
+.venv/
+venv/
+
+# Flask / app runtime
+instance/
+*.db
+*.sqlite3
+.env
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
