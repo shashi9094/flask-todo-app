@@ -17,7 +17,7 @@ def login():
             flash('Login successful', 'success')
             return redirect(url_for('tasks.view_tasks'))
         else:
-            flash('Invalid username or password', 'error')
+            flash('Invalid username or password', 'danger')
 
     return render_template('login.html')
 
